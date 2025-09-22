@@ -1,5 +1,5 @@
 locals {
-  region = "eu-north-1"
+  region = "ap-south-1"
   name = "vini-eks-cluster"
   vpc_cidr = "10.0.0.0/16"
   azs = ["ap-south-1b", "ap-south-1c"]
@@ -13,5 +13,5 @@ locals {
 }
 
 provider "aws" {
-    region = "aps-south-1"
+    region = "ap-south-1"
 }
